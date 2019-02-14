@@ -1,0 +1,7 @@
+To verify :
+
+public function CreateQuestion();
+public function CheckAnswer( $answer );
+public function generateToken( $form );
+public function verifyTheToken( $form, $token );
+public function verifyTimestamp( $timestamp, $threshold = 20 )
